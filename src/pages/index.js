@@ -5,21 +5,21 @@ import Projects from "./Projects/Projects";
 import Work from "./Work/Work";
 import Education from "./Education/Education";
 
-const Pages = () => {
+const Pages = ( { user } ) => {
   return(
     <Router>
       <Switch>
         <Route exact path="/">
-          <About/>
+          <About user={user}/>
         </Route>
         <Route exact path="/projects">
-          <Projects/>
+          <Projects user={user}/>
         </Route>
         <Route exact path="/work">
-          <Work/>
+          <Work user={user}/>
         </Route>
         <Route exact path="/education">
-          <Education/>
+          <Education user={user}/>
         </Route>
       </Switch>
     </Router>
