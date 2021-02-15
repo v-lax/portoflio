@@ -17,7 +17,7 @@ const App = () => {
   if(!user){
     return <div/>
   }
-  return <Pages/>
+  return <Pages user={user}/>
 }
 
 export default App;
