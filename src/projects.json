@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Daily Service Worker",
+        "description":"Built for individuals working as auto technicians this project is a full stack MVC application that allows a users to log, view, and keep track of the work that they have done.",
+        "delployedLink":"https://mighty-spire-89072.herokuapp.com/",
+        "gitHub":"https://github.com/diminako/daily_service_record",
+        "imageUrl":"https://via.placeholder.com/250"
+    },
+    {
+        "id":2,
+        "title":"2018 NBA Playoff Shot Charts",
+        "description":"A data visualization of each shot taken during the 2018 nba playoffs",
+        "delployedLink":"https://v-lax.github.io/Portfolio/Project1/Code/",
+        "gitHub":"https://github.com/v-lax/Portfolio/tree/master/Project1",
+        "imageUrl":"https://via.placeholder.com/250"
+    },
+    {
+        "id":3,
+        "title":"Weather Dashboard",
+        "description":"A weather web app that provides you with current and five day forecast for any city in the world.",
+        "delployedLink":"https://v-lax.github.io/weather_dashboard/html/",
+        "gitHub":"https://github.com/v-lax/weather_dashboard",
+        "imageUrl":"https://via.placeholder.com/250"
+    }
+]
