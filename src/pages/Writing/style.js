@@ -11,8 +11,3 @@ export const PubLink = styled.a`
   font-weight:bold;
   display: inline-block 
 `;
-
-export const PubDescription = styled.p`
-  font-weight:bold;
-  display: inline-block;
-`;

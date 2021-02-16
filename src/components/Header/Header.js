@@ -24,13 +24,6 @@ const ProfileHeader = ({ user }) => {
           </h4>
           <p>{user.basics.label}</p>
           <p>Based out of {user.basics.region}</p>
-          <p>{user.basics.headline}</p>
-          <p>
-            Blog:{' '}
-            <a href={user.basics.blog} target="_blank" rel="noreferrer noopener">
-              {user.basics.blog}
-            </a>
-          </p>
         </div>
       </Header>
       <div>
