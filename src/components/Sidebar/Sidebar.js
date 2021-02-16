@@ -8,7 +8,8 @@ const items = [
   {name:"About Me", path:"/"},
   {name:"Projects", path:"/projects"},
   {name:"Work", path:"/work"},
-  {name:"Education", path:"/education"}
+  {name:"Education", path:"/education"},
+  {name:"Writing",path:"/writing"}
 ];
 
 const Sidebar = () => {
